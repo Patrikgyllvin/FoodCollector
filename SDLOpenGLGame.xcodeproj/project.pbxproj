@@ -1,0 +1,308 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5FAAD81015DD85E0003DFB19 /* SDLOpenGLGame.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5FAAD80F15DD85E0003DFB19 /* SDLOpenGLGame.1 */; };
+		5FBCCCFF173C44BC00AD65F1 /* EntityManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FBCCCFE173C44BC00AD65F1 /* EntityManager.cpp */; };
+		5FBF9C881737D3A7009D0611 /* InputListener.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FBF9C871737D3A7009D0611 /* InputListener.cpp */; };
+		5FCC362F1736CBFE0013A246 /* Entity.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FCC36271736CBC50013A246 /* Entity.cpp */; };
+		5FCC36301736CC010013A246 /* Main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FCC362A1736CBC50013A246 /* Main.cpp */; };
+		5FCC36311736CC020013A246 /* Pig.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FCC362B1736CBC50013A246 /* Pig.cpp */; };
+		5FCC36321736CC040013A246 /* Pig.h in Sources */ = {isa = PBXBuildFile; fileRef = 5FCC362C1736CBC50013A246 /* Pig.h */; };
+		5FCC36331736CC150013A246 /* Entity.h in Sources */ = {isa = PBXBuildFile; fileRef = 5FCC36281736CBC50013A246 /* Entity.h */; };
+		5FCC36341736CC150013A246 /* EntityManager.h in Sources */ = {isa = PBXBuildFile; fileRef = 5FCC36291736CBC50013A246 /* EntityManager.h */; };
+		5FCC36351736CC150013A246 /* Player.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FCC362D1736CBC50013A246 /* Player.cpp */; };
+		5FCC36361736CC150013A246 /* Player.h in Sources */ = {isa = PBXBuildFile; fileRef = 5FCC362E1736CBC50013A246 /* Player.h */; };
+		5FCC363D1736CF1D0013A246 /* EntityEnemyBox.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FCC363C1736CF1D0013A246 /* EntityEnemyBox.cpp */; };
+		5FE04F6917367B28001F3793 /* SDL2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FE04F6817367B28001F3793 /* SDL2.framework */; };
+		5FE04F7117367CFC001F3793 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FE04F7017367CFC001F3793 /* OpenGL.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5FAAD80715DD85E0003DFB19 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				5FAAD81015DD85E0003DFB19 /* SDLOpenGLGame.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5FAAD80915DD85E0003DFB19 /* SDLOpenGLGame */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SDLOpenGLGame; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FAAD80F15DD85E0003DFB19 /* SDLOpenGLGame.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; name = SDLOpenGLGame.1; path = SDLOpenGLGame/SDLOpenGLGame.1; sourceTree = "<group>"; };
+		5FBCCCFE173C44BC00AD65F1 /* EntityManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = EntityManager.cpp; sourceTree = "<group>"; };
+		5FBF9C871737D3A7009D0611 /* InputListener.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = InputListener.cpp; sourceTree = "<group>"; };
+		5FCC36271736CBC50013A246 /* Entity.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Entity.cpp; sourceTree = "<group>"; };
+		5FCC36281736CBC50013A246 /* Entity.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Entity.h; sourceTree = "<group>"; };
+		5FCC36291736CBC50013A246 /* EntityManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EntityManager.h; sourceTree = "<group>"; };
+		5FCC362A1736CBC50013A246 /* Main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Main.cpp; sourceTree = "<group>"; };
+		5FCC362B1736CBC50013A246 /* Pig.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Pig.cpp; sourceTree = "<group>"; };
+		5FCC362C1736CBC50013A246 /* Pig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Pig.h; sourceTree = "<group>"; };
+		5FCC362D1736CBC50013A246 /* Player.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Player.cpp; sourceTree = "<group>"; };
+		5FCC362E1736CBC50013A246 /* Player.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		5FCC363B1736CEAC0013A246 /* EntityEnemyBox.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EntityEnemyBox.h; sourceTree = "<group>"; };
+		5FCC363C1736CF1D0013A246 /* EntityEnemyBox.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = EntityEnemyBox.cpp; sourceTree = "<group>"; };
+		5FCC36411736F7450013A246 /* InputManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InputManager.h; sourceTree = "<group>"; };
+		5FCC36421736F91B0013A246 /* InputListener.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InputListener.h; sourceTree = "<group>"; };
+		5FE04F6817367B28001F3793 /* SDL2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2.framework; path = ../../../../System/Library/Frameworks/SDL2.framework; sourceTree = "<group>"; };
+		5FE04F7017367CFC001F3793 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5FAAD80615DD85E0003DFB19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FE04F7117367CFC001F3793 /* OpenGL.framework in Frameworks */,
+				5FE04F6917367B28001F3793 /* SDL2.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5FAAD7FE15DD85E0003DFB19 = {
+			isa = PBXGroup;
+			children = (
+				5FE04F7017367CFC001F3793 /* OpenGL.framework */,
+				5FE04F6817367B28001F3793 /* SDL2.framework */,
+				5FAAD80C15DD85E0003DFB19 /* SDLOpenGLGame */,
+				5FAAD80F15DD85E0003DFB19 /* SDLOpenGLGame.1 */,
+				5FAAD80A15DD85E0003DFB19 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5FAAD80A15DD85E0003DFB19 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5FAAD80915DD85E0003DFB19 /* SDLOpenGLGame */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5FAAD80C15DD85E0003DFB19 /* SDLOpenGLGame */ = {
+			isa = PBXGroup;
+			children = (
+				5FCC36371736CDE50013A246 /* Headers */,
+				5FCC36381736CDF90013A246 /* Sources */,
+			);
+			path = SDLOpenGLGame;
+			sourceTree = "<group>";
+		};
+		5FCC36371736CDE50013A246 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				5FCC36411736F7450013A246 /* InputManager.h */,
+				5FCC36421736F91B0013A246 /* InputListener.h */,
+				5FCC36391736CE080013A246 /* Entities */,
+			);
+			name = Headers;
+			sourceTree = "<group>";
+		};
+		5FCC36381736CDF90013A246 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				5FCC363A1736CE140013A246 /* Entities */,
+				5FCC362A1736CBC50013A246 /* Main.cpp */,
+				5FBF9C871737D3A7009D0611 /* InputListener.cpp */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		5FCC36391736CE080013A246 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				5FCC36281736CBC50013A246 /* Entity.h */,
+				5FCC36291736CBC50013A246 /* EntityManager.h */,
+				5FCC362C1736CBC50013A246 /* Pig.h */,
+				5FCC362E1736CBC50013A246 /* Player.h */,
+				5FCC363B1736CEAC0013A246 /* EntityEnemyBox.h */,
+			);
+			name = Entities;
+			sourceTree = "<group>";
+		};
+		5FCC363A1736CE140013A246 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				5FCC36271736CBC50013A246 /* Entity.cpp */,
+				5FCC362B1736CBC50013A246 /* Pig.cpp */,
+				5FCC362D1736CBC50013A246 /* Player.cpp */,
+				5FCC363C1736CF1D0013A246 /* EntityEnemyBox.cpp */,
+				5FBCCCFE173C44BC00AD65F1 /* EntityManager.cpp */,
+			);
+			name = Entities;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5FAAD80815DD85E0003DFB19 /* SDLOpenGLGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FAAD81315DD85E0003DFB19 /* Build configuration list for PBXNativeTarget "SDLOpenGLGame" */;
+			buildPhases = (
+				5FAAD80515DD85E0003DFB19 /* Sources */,
+				5FAAD80615DD85E0003DFB19 /* Frameworks */,
+				5FAAD80715DD85E0003DFB19 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SDLOpenGLGame;
+			productName = SDLOpenGLGame;
+			productReference = 5FAAD80915DD85E0003DFB19 /* SDLOpenGLGame */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5FAAD80015DD85E0003DFB19 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Patrik Gyllvin";
+			};
+			buildConfigurationList = 5FAAD80315DD85E0003DFB19 /* Build configuration list for PBXProject "SDLOpenGLGame" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5FAAD7FE15DD85E0003DFB19;
+			productRefGroup = 5FAAD80A15DD85E0003DFB19 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5FAAD80815DD85E0003DFB19 /* SDLOpenGLGame */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5FAAD80515DD85E0003DFB19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FCC362F1736CBFE0013A246 /* Entity.cpp in Sources */,
+				5FCC36331736CC150013A246 /* Entity.h in Sources */,
+				5FCC36341736CC150013A246 /* EntityManager.h in Sources */,
+				5FCC36301736CC010013A246 /* Main.cpp in Sources */,
+				5FCC36311736CC020013A246 /* Pig.cpp in Sources */,
+				5FCC36321736CC040013A246 /* Pig.h in Sources */,
+				5FCC36351736CC150013A246 /* Player.cpp in Sources */,
+				5FCC36361736CC150013A246 /* Player.h in Sources */,
+				5FCC363D1736CF1D0013A246 /* EntityEnemyBox.cpp in Sources */,
+				5FBF9C881737D3A7009D0611 /* InputListener.cpp in Sources */,
+				5FBCCCFF173C44BC00AD65F1 /* EntityManager.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5FAAD81115DD85E0003DFB19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		5FAAD81215DD85E0003DFB19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		5FAAD81415DD85E0003DFB19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../Library/Frameworks\"",
+					"\"$(SRCROOT)/..\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5FAAD81515DD85E0003DFB19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../Library/Frameworks\"",
+					"\"$(SRCROOT)/..\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5FAAD80315DD85E0003DFB19 /* Build configuration list for PBXProject "SDLOpenGLGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FAAD81115DD85E0003DFB19 /* Debug */,
+				5FAAD81215DD85E0003DFB19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5FAAD81315DD85E0003DFB19 /* Build configuration list for PBXNativeTarget "SDLOpenGLGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FAAD81415DD85E0003DFB19 /* Debug */,
+				5FAAD81515DD85E0003DFB19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5FAAD80015DD85E0003DFB19 /* Project object */;
+}
